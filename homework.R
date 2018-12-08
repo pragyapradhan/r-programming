@@ -1,5 +1,5 @@
 # Homework assignment : Law of Large Numbers 
-
+# by pra
 
 N <- 1000
 count =0
