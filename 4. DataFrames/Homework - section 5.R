@@ -65,8 +65,9 @@ nrow(finalmerge)
 str(finalmerge)
 
 
-
 # visualization  for 1960
+
+qplot(data = finalmerge, x = Fertility.Rate.1960, y = Life_Expectancy_At_Birth_1960)
 
 qplot(data = finalmerge, x = Fertility.Rate.1960, y = Life_Expectancy_At_Birth_1960, size = I(4),
       color = Region,shape = I(19), 

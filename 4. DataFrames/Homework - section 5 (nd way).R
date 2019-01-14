@@ -44,6 +44,6 @@ qplot(data = merged1960, x = Fertility.Rate, y = Life.Expectancy, size = I(4),
 
 # visualization  for 2013
 
-qplot(data = merged2013, x = Fertility.Rate , y = Life.Expectancy, size = I(4),
-      color = Region,shape = I(19), 
+qplot(data = merged2013, x = Fertility.Rate , y = Life.Expectancy, size = I(5),
+      color = Region,pch=I(19),
       alpha = I(0.6), main = "Life Expectancy vs Fertility Rate in 2013")
